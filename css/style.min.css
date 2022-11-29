@@ -324,7 +324,7 @@ input:focus::-webkit-input-placeholder {
 .header {
   background: url(../img/shum1.png), linear-gradient(99.37deg, rgba(109, 168, 201, 0.2) 2.8%, rgba(131, 183, 213, 0.2) 44.65%, rgba(206, 229, 242, 0.2) 97.32%), rgba(0, 0, 0, 0.25);
   background-size: 100% 100%;
-  backdrop-filter: blur(38.5px);
+  backdrop-filter: blur(2.005vw);
   background-repeat: no-repeat;
   position: fixed;
   top: 0;
@@ -695,7 +695,7 @@ input:focus::-webkit-input-placeholder {
 .four_block {
   background: url(../img/shum1.png), linear-gradient(to right, #4e8eb3 0.83%, #74a9c7 44%, #ffffff 44%, #ffffff 100%);
   overflow: hidden;
-  box-shadow: 0px -6px 40px rgba(0, 0, 0, 0.05), 0px 6px 40px rgba(0, 0, 0, 0.05);
+  box-shadow: 0vw -0.313vw 2.083vw rgba(0, 0, 0, 0.05), 0vw 0.313vw 2.083vw rgba(0, 0, 0, 0.05);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -2063,8 +2063,8 @@ input:focus::-webkit-input-placeholder {
   display: flex;
   margin-top: 1.302vw;
   margin-left: auto;
-  margin-top: 25px;
-  margin-bottom: 40px;
+  margin-top: 1.302vw;
+  margin-bottom: 2.083vw;
 }
 .product_page_block .page_content {
   display: flex;
@@ -2072,14 +2072,14 @@ input:focus::-webkit-input-placeholder {
   justify-content: space-between;
 }
 .product_page_block .product_page_left {
-  width: 624px;
+  width: 32.5vw;
   overflow: hidden;
 }
 .product_page_block .product_page_left .big_slider {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 0.781vw;
   overflow: hidden;
-  height: 683px;
+  height: 35.573vw;
 }
 .product_page_block .product_page_left .swiper-slide img {
   width: 100%;
@@ -2087,75 +2087,75 @@ input:focus::-webkit-input-placeholder {
   object-fit: cover;
 }
 .product_page_block .product_page_right {
-  width: 625px;
+  width: 32.552vw;
 }
 .product_page_block .product_page_right .product_desk {
-  padding-bottom: 40px;
-  border-bottom: 1px solid rgba(154, 154, 154, 0.4509803922);
+  padding-bottom: 2.083vw;
+  border-bottom: 0.052vw solid rgba(154, 154, 154, 0.4509803922);
 }
 .product_page_block .product_page_right .artikul {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 300;
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 1.146vw;
+  line-height: 1.771vw;
   color: #8C8C8C;
-  padding-bottom: 25px;
+  padding-bottom: 1.302vw;
 }
 .product_page_block .product_page_right .name_product {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 44px;
+  font-size: 1.563vw;
+  line-height: 2.292vw;
   color: #1C1D1B;
-  padding-bottom: 15px;
+  padding-bottom: 0.781vw;
 }
 .product_page_block .product_page_right .subtitle {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 300;
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 1.146vw;
+  line-height: 1.771vw;
   color: #1C1D1B;
-  padding-bottom: 25px;
+  padding-bottom: 1.302vw;
 }
 .product_page_block .product_page_right .variation_size {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 1.302vw;
   align-items: flex-start;
-  padding-bottom: 40px;
+  padding-bottom: 2.083vw;
 }
 .product_page_block .product_page_right .title_var {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 1.25vw;
+  line-height: 1.458vw;
   text-align: right;
   color: #1C1D1B;
 }
 .product_page_block .product_page_right .var_size_items {
   display: flex;
   justify-content: flex-start;
-  gap: 15px;
+  gap: 0.781vw;
 }
 .product_page_block .product_page_right .size_item {
   transition: 0.3s ease-in;
   background: #FFFFFF;
-  border: 1px solid #1C1D1B;
-  border-radius: 51px;
-  width: 113px;
-  height: 43px;
+  border: 0.052vw solid #1C1D1B;
+  border-radius: 2.656vw;
+  width: 5.885vw;
+  height: 2.24vw;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 0.833vw;
+  line-height: 1.354vw;
   text-align: right;
   color: #282828;
   transition: 0.3s ease-in;
@@ -2163,9 +2163,9 @@ input:focus::-webkit-input-placeholder {
 }
 .product_page_block .product_page_right .size_item:hover {
   transition: 0.3s ease-in;
-  width: 113px;
-  height: 43px;
-  border-radius: 51px;
+  width: 5.885vw;
+  height: 2.24vw;
+  border-radius: 2.656vw;
   background: url(../img/shum1.png), #5496BB;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -2175,16 +2175,16 @@ input:focus::-webkit-input-placeholder {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 0.833vw;
+  line-height: 1.354vw;
   color: #FFFFFF;
   transition: 0.3s ease-in;
-  border: 1px solid transparent;
+  border: 0.052vw solid transparent;
 }
 .product_page_block .product_page_right .size_item.active {
-  width: 113px;
-  height: 43px;
-  border-radius: 51px;
+  width: 5.885vw;
+  height: 2.24vw;
+  border-radius: 2.656vw;
   background: url(../img/shum1.png), #5496BB;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -2194,36 +2194,36 @@ input:focus::-webkit-input-placeholder {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 0.833vw;
+  line-height: 1.354vw;
   color: #FFFFFF;
   transition: 0.3s ease-in;
-  border: 1px solid transparent;
+  border: 0.052vw solid transparent;
 }
 .product_page_block .product_page_right .variation_color {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 1.302vw;
   align-items: flex-start;
 }
 .product_page_block .product_page_right .choize_color {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 300;
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 1.146vw;
+  line-height: 1.771vw;
   color: #1C1D1B;
-  padding-left: 15px;
+  padding-left: 0.781vw;
 }
 .product_page_block .product_page_right .var_color_items {
   display: flex;
-  gap: 17px;
+  gap: 0.885vw;
   align-items: center;
   justify-content: flex-start;
 }
 .product_page_block .product_page_right .color_item {
-  width: 23px;
-  height: 23px;
+  width: 1.198vw;
+  height: 1.198vw;
   background: #BCA685;
   border-radius: 50%;
   transition: 0.3s ease-in;
@@ -2231,15 +2231,15 @@ input:focus::-webkit-input-placeholder {
   position: relative;
 }
 .product_page_block .product_page_right .color_item::before {
-  width: 33px;
-  height: 33px;
+  width: 1.719vw;
+  height: 1.719vw;
   background: transparent;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 0.052vw solid black;
   content: "";
   position: absolute;
-  left: -5px;
-  top: -5px;
+  left: -0.26vw;
+  top: -0.26vw;
   opacity: 0;
   transition: 0.3s ease-in;
 }
@@ -2251,21 +2251,21 @@ input:focus::-webkit-input-placeholder {
   opacity: 1;
 }
 .product_page_block .product_page_right .button_for_byu {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 1.823vw;
+  margin-bottom: 1.823vw;
   background: url(../img/shum1.png), #5496BB;
   background-size: 100% 100%;
-  border-radius: 45px;
-  width: 625px;
-  height: 60px;
+  border-radius: 2.344vw;
+  width: 32.552vw;
+  height: 3.125vw;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 34px;
+  font-size: 1.042vw;
+  line-height: 1.771vw;
   text-align: center;
   color: #FFFFFF;
   transition: 0.3s ease-in;
@@ -2273,30 +2273,30 @@ input:focus::-webkit-input-placeholder {
 }
 .product_page_block .product_page_right .button_for_byu:hover {
   background: #FFFFFF;
-  border-radius: 44px;
+  border-radius: 2.292vw;
   transition: 0.3s ease-in;
   color: rgb(84, 150, 187);
 }
 .product_page_block .product_page_right .kharakteristik {
-  padding-top: 30px;
-  border-bottom: 1px solid rgba(154, 154, 154, 0.4509803922);
-  padding-bottom: 30px;
-  border-top: 1px solid rgba(154, 154, 154, 0.4509803922);
+  padding-top: 1.563vw;
+  border-bottom: 0.052vw solid rgba(154, 154, 154, 0.4509803922);
+  padding-bottom: 1.563vw;
+  border-top: 0.052vw solid rgba(154, 154, 154, 0.4509803922);
 }
 .product_page_block .product_page_right .title {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 1.25vw;
+  line-height: 1.458vw;
   color: #1C1D1B;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .product_page_block .product_page_right .arrow_hidden {
-  width: 16px;
-  height: 8px;
+  width: 0.833vw;
+  height: 0.417vw;
   background: url(../img/arrow-hidden.png);
   background-position: center;
   background-size: 100% 100%;
@@ -2309,10 +2309,10 @@ input:focus::-webkit-input-placeholder {
   transform: rotate(180deg);
 }
 .product_page_block .product_page_right .list {
-  padding-top: 27px;
+  padding-top: 1.406vw;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.042vw;
 }
 .product_page_block .product_page_right .list .list_item {
   display: flex;
@@ -2324,8 +2324,8 @@ input:focus::-webkit-input-placeholder {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 300;
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 1.146vw;
+  line-height: 1.771vw;
   color: #1C1D1B;
 }
 .product_page_block .product_page_right .list .value_item {
@@ -2333,21 +2333,21 @@ input:focus::-webkit-input-placeholder {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 1.146vw;
+  line-height: 1.771vw;
   color: #1C1D1B;
 }
 .product_page_block .product_page_right .descriptions {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid rgba(154, 154, 154, 0.4509803922);
+  padding-top: 2.083vw;
+  padding-bottom: 2.083vw;
+  border-bottom: 0.052vw solid rgba(154, 154, 154, 0.4509803922);
 }
 .product_page_block .product_page_right .descriptions .desc_text {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 300;
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 1.146vw;
+  line-height: 1.771vw;
   color: #1C1D1B;
-  padding-top: 25px;
+  padding-top: 1.302vw;
 }
