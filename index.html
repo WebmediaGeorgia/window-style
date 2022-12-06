@@ -6,9 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221129032930"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221206070947"
 />
-	<link rel="stylesheet" href="css/style.min.css?_v=20221129032930">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221206070947">
 	<title>Главная</title>
 </head>
 
@@ -17,10 +17,16 @@
   <div class="header_top">
     <nav class="nav_header">
       <li class="ul_header"><a href="./index.html" class="nav_item">Home</a></li>
-      <li class="ul_header"><a href="#" class="nav_item">Catalog</a></li>
+      <li class="ul_header"><a href="./catalog.html" class="nav_item">Catalog</a></li>
       <li class="ul_header"><a href="./about_us.html" class="nav_item">About Us</a></li>
       <li class="ul_header"><a href="./contacts.html" class="nav_item">Contacts</a></li>
     </nav>
+    <div class="header_burger">
+        <div class="burger_black one"></div>
+        <div class="burger_tr two"></div>
+        <div class="burger_tr three"></div>
+        <div class="burger_black four"></div>
+    </div>
     <div class="header_logo">
       <picture><source srcset="./img/LOGO.webp" type="image/webp"><img src="./img/LOGO.png" alt="logo" class="logo_img" /></picture>
     </div>
@@ -35,7 +41,40 @@
       и установка в удобное для вас время</span
     >
   </div>
+  <div class="burger-menu">
+    <div class="wrapper">
+      <div class="left-part"></div>
+      <div class="right-part">
+        
+        
+        <nav class="burger-nav">
+          <li class="ul_header"><a href="./index.html" class="menu-burger-item">Home</a></li>
+          <li class="ul_header"><a href="./catalog.html" class="menu-burger-item">Catalog</a></li>
+          <li class="ul_header"><a href="./about_us.html" class="menu-burger-item">About Us</a></li>
+          <li class="ul_header"><a href="./contacts.html" class="menu-burger-item">Contacts</a></li>
+        </nav>
+  
+        <div class="button-form">
+          <div class="form-for-credit">
+            
+            <form action="#">
+              <div class="block-input">
+                <input type="text" class="fio" name="fio" value="" placeholder="Ваше Имя">
+                <input type="text" class="tel" name="tel" value="" placeholder="Ваш Телефон">
+              </div>
+              <div class="block-input">
+                <div class="button-sub"><button class="blue_btn" type="submit">Оставить заявку</button></div>
+               
+              </div>
+             
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
 </header>
+
 
   <main class="main">
     <section class="first_block">
@@ -80,7 +119,7 @@
           </div>
         </div>
         <div class="item">
-          <div class="img_bg"><picture><source srcset="./img/cat2.webp" type="image/webp"><img src="./img/cat2.png" alt="bg" /></picture></div>
+          <div class="img_bg"><picture><source srcset="./img/cat4.webp" type="image/webp"><img src="./img/cat4.png" alt="bg" /></picture></div>
           <div class="name_category">
             <a href="#" class="category_link"> Двери\Окна</a>
           </div>
@@ -92,7 +131,7 @@
           </div>
         </div>
         <div class="item">
-          <div class="img_bg"><picture><source srcset="./img/cat4.webp" type="image/webp"><img src="./img/cat4.png" alt="bg" /></picture></div>
+          <div class="img_bg"><picture><source srcset="./img/cat2.webp" type="image/webp"><img src="./img/cat2.png" alt="bg" /></picture></div>
           <div class="name_category">
             <a href="#" class="category_link"> Фурнитура</a>
           </div>
@@ -109,7 +148,7 @@
     <section class="three_block">
     <div class="container content">
       <div class="quote"><picture><source srcset="./img/quote.webp" type="image/webp"><img src="./img/quote.png" alt="quote"></picture></div>
-      <p class="text_quote"><span>WINDOW STYLE</span>  - предлагаем своим клиентам высокотехнологичную продукцию, которая соответствует высочайшим стандартам <br> качества</p>
+      <p class="text_quote"><span>WINDOW STYLE - </span>предлагаем своим клиентам высокотехнологичную продукцию, которая соответствует высочайшим стандартам <br> качества</p>
     <a href="#" class="blue_btn btn">Подробнее о компании</a>
     
     </div>
@@ -190,151 +229,6 @@
   </div>
 
 </section>
-    <!-- <section class="new_models">
-  <div class="content">
-    <h2 class="title">Новые модели</h2>
-    <div class="slider_product_content swiper">
-      <div class="slider_models swiper-wrapper">
-      
-       
-        <div class="slider_border swiper-slide">
-          <div class="slide_model_itemm ">
-            <div class="content_slide">
-              <div class="articul">#624553</div>
-              <div class="img_slider">
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                
-  
-              </div>
-  
-              <div class="name_product">Dark Side LB - 182 Steel quartet </div>
-  
-              <div class="description_product">
-                <div class="variable">
-                  <p class="name_variable">Mahagony</p>
-                  <div class="all_variable"><span class="color_variable"></span><span class="color_variable"></span><span
-                      class="color_variable"></span></div>
-                </div>
-                <div class="price_product">
-                  <div class="old_price">$ 215</div>
-                  <div class="new_price">$ 167.00</div>
-                </div>
-              </div>
-  
-            </div>
-          </div>
-        </div>
-        <div class="slider_border swiper-slide">
-          <div class="slide_model_itemm ">
-            <div class="content_slide">
-              <div class="articul">#624553</div>
-              <div class="img_slider">
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                
-  
-              </div>
-  
-              <div class="name_product">Dark Side LB - 182 Steel quartet </div>
-  
-              <div class="description_product">
-                <div class="variable">
-                  <p class="name_variable">Mahagony</p>
-                  <div class="all_variable"><span class="color_variable"></span><span class="color_variable"></span><span
-                      class="color_variable"></span></div>
-                </div>
-                <div class="price_product">
-                  <div class="old_price">$ 215</div>
-                  <div class="new_price">$ 167.00</div>
-                </div>
-              </div>
-  
-            </div>
-          </div>
-        </div>
-        <div class="slider_border swiper-slide">
-          <div class="slide_model_itemm ">
-            <div class="content_slide">
-              <div class="articul">#624553</div>
-              <div class="img_slider">
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                
-  
-              </div>
-  
-              <div class="name_product">Dark Side LB - 182 Steel quartet </div>
-  
-              <div class="description_product">
-                <div class="variable">
-                  <p class="name_variable">Mahagony</p>
-                  <div class="all_variable"><span class="color_variable"></span><span class="color_variable"></span><span
-                      class="color_variable"></span></div>
-                </div>
-                <div class="price_product">
-                  <div class="old_price">$ 215</div>
-                  <div class="new_price">$ 167.00</div>
-                </div>
-              </div>
-  
-            </div>
-          </div>
-        </div>
-        <div class="slider_border swiper-slide">
-          <div class="slide_model_itemm ">
-            <div class="content_slide">
-              <div class="articul">#624553</div>
-              <div class="img_slider">
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                
-  
-              </div>
-  
-              <div class="name_product">Dark Side LB - 182 Steel quartet </div>
-  
-              <div class="description_product">
-                <div class="variable">
-                  <p class="name_variable">Mahagony</p>
-                  <div class="all_variable"><span class="color_variable"></span><span class="color_variable"></span><span
-                      class="color_variable"></span></div>
-                </div>
-                <div class="price_product">
-                  <div class="old_price">$ 215</div>
-                  <div class="new_price">$ 167.00</div>
-                </div>
-              </div>
-  
-            </div>
-          </div>
-        </div>
-        
-      </div>
-      <div class="slider_product-button-prev swiper-button-prev "></div>
-      <div class="slider_product-button-next swiper-button-next"></div>
-    </div>
-
-  </div>
-  <div class="img_bg">
-    <picture><source srcset="./img/animationproductbg.webp" type="image/webp"><img src="./img/animationproductbg.png" alt="img_bg"></picture>
-  </div>
-</section> -->
-
-
-
 <section class="new_models">
   <div class="content">
     <h2 class="title">Новые модели</h2>
@@ -349,9 +243,9 @@
               <div class="img_slider swiper">
                 <div class="img_container swiper-wrapper">
                   <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
+                <div class="imade_container swiper-slide"><picture><source srcset="./img/for_catalog1.webp" type="image/webp"><img src="./img/for_catalog1.png" alt="slide"></picture></div>
                 <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
+                <div class="imade_container swiper-slide"><picture><source srcset="./img/for_catalog_2.webp" type="image/webp"><img src="./img/for_catalog_2.png" alt="slide"></picture></div>
                 <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div></div>
                 
                 
@@ -381,11 +275,11 @@
               <div class="articul">#624553</div>
               <div class="img_slider swiper">
                 <div class="img_container swiper-wrapper">
-                  <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
+                  <div class="imade_container swiper-slide"><picture><source srcset="./img/for_catalog1.webp" type="image/webp"><img src="./img/for_catalog1.png" alt="slide"></picture></div>
                 <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
+                <div class="imade_container swiper-slide"><picture><source srcset="./img/for_catalog_2.webp" type="image/webp"><img src="./img/for_catalog_2.png" alt="slide"></picture></div>
                 <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div></div>
+                <div class="imade_container swiper-slide"><picture><source srcset="./img/for_catalog_2.webp" type="image/webp"><img src="./img/for_catalog_2.png" alt="slide"></picture></div></div>
                 
                 
   
@@ -414,11 +308,11 @@
               <div class="articul">#624553</div>
               <div class="img_slider swiper">
                 <div class="img_container swiper-wrapper">
-                  <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
+                  <div class="imade_container swiper-slide"><picture><source srcset="./img/for_catalog_2.webp" type="image/webp"><img src="./img/for_catalog_2.png" alt="slide"></picture></div>
                 <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
+                <div class="imade_container swiper-slide"><picture><source srcset="./img/for_catalog1.webp" type="image/webp"><img src="./img/for_catalog1.png" alt="slide"></picture></div>
                 <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div></div>
+                <div class="imade_container swiper-slide"><picture><source srcset="./img/for_catalog1.webp" type="image/webp"><img src="./img/for_catalog1.png" alt="slide"></picture></div></div>
                 
                 
   
@@ -447,11 +341,11 @@
               <div class="articul">#624553</div>
               <div class="img_slider swiper">
                 <div class="img_container swiper-wrapper">
-                  <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
+                  <div class="imade_container swiper-slide"><picture><source srcset="./img/for_catalog_2.webp" type="image/webp"><img src="./img/for_catalog_2.png" alt="slide"></picture></div>
                 <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
                 <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
                 <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div>
-                <div class="imade_container swiper-slide"><picture><source srcset="./img/produkt1slide.webp" type="image/webp"><img src="./img/produkt1slide.png" alt="slide"></picture></div></div>
+                <div class="imade_container swiper-slide"><picture><source srcset="./img/for_catalog_2.webp" type="image/webp"><img src="./img/for_catalog_2.png" alt="slide"></picture></div></div>
                 
                 
   
@@ -523,10 +417,10 @@
   <div class="container footer-content">
     <div class="block_up">
       <nav class="footer_nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Catalog</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contacts</a></li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./catalog.html">Catalog</a></li>
+        <li><a href="./about_us.html">About Us</a></li>
+        <li><a href="./contacts.html">Contacts</a></li>
       </nav>
       <div class="footer_logo">
         <picture><source srcset="./img/footerlogo.webp" type="image/webp"><img src="./img/footerlogo.png" alt="logo"></picture>
@@ -543,8 +437,10 @@
 
   </div>
 </footer>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221129032930"></script>
-  <script src="js/app.min.js?_v=20221129032930"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221206070947"></script>
+  <script src="js/app.min.js?_v=20221206070947"></script>
+  <script src="js/my.js"></script>
+
 </body>
 
 </html>

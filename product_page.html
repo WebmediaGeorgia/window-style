@@ -6,9 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221129032930"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221206070947"
 />
-	<link rel="stylesheet" href="css/style.min.css?_v=20221129032930">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221206070947">
 	<title>Карточка товара</title>
 </head>
 
@@ -17,10 +17,16 @@
   <div class="header_top">
     <nav class="nav_header">
       <li class="ul_header"><a href="./index.html" class="nav_item">Home</a></li>
-      <li class="ul_header"><a href="#" class="nav_item">Catalog</a></li>
+      <li class="ul_header"><a href="./catalog.html" class="nav_item">Catalog</a></li>
       <li class="ul_header"><a href="./about_us.html" class="nav_item">About Us</a></li>
       <li class="ul_header"><a href="./contacts.html" class="nav_item">Contacts</a></li>
     </nav>
+    <div class="header_burger">
+        <div class="burger_black one"></div>
+        <div class="burger_tr two"></div>
+        <div class="burger_tr three"></div>
+        <div class="burger_black four"></div>
+    </div>
     <div class="header_logo">
       <picture><source srcset="./img/LOGO.webp" type="image/webp"><img src="./img/LOGO.png" alt="logo" class="logo_img" /></picture>
     </div>
@@ -35,7 +41,40 @@
       и установка в удобное для вас время</span
     >
   </div>
+  <div class="burger-menu">
+    <div class="wrapper">
+      <div class="left-part"></div>
+      <div class="right-part">
+        
+        
+        <nav class="burger-nav">
+          <li class="ul_header"><a href="./index.html" class="menu-burger-item">Home</a></li>
+          <li class="ul_header"><a href="./catalog.html" class="menu-burger-item">Catalog</a></li>
+          <li class="ul_header"><a href="./about_us.html" class="menu-burger-item">About Us</a></li>
+          <li class="ul_header"><a href="./contacts.html" class="menu-burger-item">Contacts</a></li>
+        </nav>
+  
+        <div class="button-form">
+          <div class="form-for-credit">
+            
+            <form action="#">
+              <div class="block-input">
+                <input type="text" class="fio" name="fio" value="" placeholder="Ваше Имя">
+                <input type="text" class="tel" name="tel" value="" placeholder="Ваш Телефон">
+              </div>
+              <div class="block-input">
+                <div class="button-sub"><button class="blue_btn" type="submit">Оставить заявку</button></div>
+               
+              </div>
+             
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
 </header>
+
 
   <main class="main product_page_bg">
     <section class="product_page_block">
@@ -45,6 +84,16 @@
         </div>
         <div class="content page_content">
           <div class="product_page_left">
+            <div class="product_desk">
+              <p class="artikul">#09425</p>
+              <h1 class="name_product">Dark Side LB - 182 Steel, Red vine, Earl Gray - Sunrise</h1>
+              <p class="subtitle">Новинка, выполненная в духе минимализма. Обработка натурального шпона дуба методом
+                браширования позволяет получить поверхности с ярко выраженной структурой </p>
+          
+              <div class="price_product">
+                <p class="old_price">$ 215</p> <p class="new_price">$ 167.00</p>
+              </div>
+            </div>
             <div class="big_slider swiper">
               <div class="big_slider_wrapper swiper-wrapper">
                 <div class="big_slider_slide swiper-slide">
@@ -62,6 +111,28 @@
 
               </div>
             </div>
+            <div class="lit_slider swiper">
+              <div class="lit_slider_wrapper swiper-wrapper">
+                <div class="lit_slider_slide swiper-slide">
+                  <picture><source srcset="./img/bigslide.webp" type="image/webp"><img src="./img/bigslide.png" alt="slide"></picture>
+                </div>
+                <div class="lit_slider_slide swiper-slide">
+                  <picture><source srcset="./img/bigslide.webp" type="image/webp"><img src="./img/bigslide.png" alt="slide"></picture>
+                </div>
+                <div class="lit_slider_slide swiper-slide">
+                  <picture><source srcset="./img/bigslide.webp" type="image/webp"><img src="./img/bigslide.png" alt="slide"></picture>
+                </div>
+                <div class="lit_slider_slide swiper-slide">
+                  <picture><source srcset="./img/bigslide.webp" type="image/webp"><img src="./img/bigslide.png" alt="slide"></picture>
+                </div>
+
+              </div>
+              <div class="swiper-pagination swiper_lit_pug"></div>
+              
+              
+            
+            </div>
+            
           </div>
           <div class="product_page_right">
             <div class="product_desk">
@@ -90,6 +161,9 @@
                   <div class="color_item"></div>
                 </div>
 
+              </div>
+              <div class="price_product">
+                <p class="old_price">$ 215</p> <p class="new_price">$ 167.00</p>
               </div>
             </div>
             <div class="button_for_byu">Оставить заявку</div>
@@ -276,10 +350,10 @@
   <div class="container footer-content">
     <div class="block_up">
       <nav class="footer_nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Catalog</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contacts</a></li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./catalog.html">Catalog</a></li>
+        <li><a href="./about_us.html">About Us</a></li>
+        <li><a href="./contacts.html">Contacts</a></li>
       </nav>
       <div class="footer_logo">
         <picture><source srcset="./img/footerlogo.webp" type="image/webp"><img src="./img/footerlogo.png" alt="logo"></picture>
@@ -296,8 +370,9 @@
 
   </div>
 </footer>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221129032930"></script>
-  <script src="js/app.min.js?_v=20221129032930"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221206070947"></script>
+  <script src="js/app.min.js?_v=20221206070947"></script>
+  <script src="js/my.js"></script>
 </body>
 
 </html>
