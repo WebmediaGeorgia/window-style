@@ -443,12 +443,12 @@ input:focus::-webkit-input-placeholder {
 }
 .header .nav_header .ul_header{
   padding-bottom: 0.156vw ;
-  border-bottom: 0.104vw solid transparent;
+  border-bottom: 2px solid transparent;
   transition: 0.3s ease-in;
  
 }
 .header .nav_header .ul_header:hover{
-  border-bottom: 0.104vw solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
   transition: 0.3s ease-in;
 }
 .header .nav_item {
