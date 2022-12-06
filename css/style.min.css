@@ -898,7 +898,16 @@ input:focus::-webkit-input-placeholder {
 
 .three_block .btn {
   margin-top: 4.427vw;
-  width: 16.927vw
+  width: 16.927vw;
+  border: 0.052vw solid #222223;
+    color: #222223;
+    transition: 0.3s ease-in-out;
+}
+.three_block .btn:hover {
+  border: 0.052vw solid #5698BD;
+  color: #FFFFFF;
+  background: #5698BD;
+  transition: 0.3s ease-in-out;
 }
 
 .three_block .img_animation {
@@ -4799,7 +4808,16 @@ opacity: 1;
     width: 60.547vw;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
-    align-self: center
+    align-self: center;
+    border: 0.13vw solid #222223;
+    color: #222223;
+    transition: 0.3s ease-in-out;
+  }
+  .three_block .btn:hover {
+    border: 0.13vw solid #5698BD;
+    color: #FFFFFF;
+    background: #5698BD;
+    transition: 0.3s ease-in-out;
   }
 
   .three_block .img_animation {
@@ -8628,8 +8646,18 @@ opacity: 1;
     width: 92vw;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
-    align-self: center
+    align-self: center;
+    border: 0.267vw solid #222223;
+    color: #222223;
+    transition: 0.3s ease-in-out;
   }
+  .three_block .btn:hover {
+    border: 0.267vw solid #5698BD;
+    color: #FFFFFF;
+    background: #5698BD;
+    transition: 0.3s ease-in-out;
+  }
+  
 
   .three_block .img_animation {
     position: absolute;
