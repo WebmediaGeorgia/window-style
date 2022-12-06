@@ -441,7 +441,16 @@ input:focus::-webkit-input-placeholder {
   align-items: center;
   gap: 3.125vw
 }
-
+.header .nav_header .ul_header{
+  padding-bottom: 0.156vw ;
+  border-bottom: 0.104vw solid transparent;
+  transition: 0.3s ease-in;
+ 
+}
+.header .nav_header .ul_header:hover{
+  border-bottom: 0.104vw solid #FFFFFF;
+  transition: 0.3s ease-in;
+}
 .header .nav_item {
   font-family: Helvetica;
   font-style: normal;
@@ -11529,6 +11538,12 @@ color: #212121;
 
 .webp .product_page_block .product_page_right .button_for_byu {
   background: url(../img/shum1.webp), #5496bb;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+.webp .product_page_block .product_page_right .button_for_byu:hover {
+  background: #fff;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   
