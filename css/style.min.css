@@ -1209,22 +1209,22 @@ input:focus::-webkit-input-placeholder {
 
 .four_block .swiper-button-next,
 .four_block .swiper-rtl .swiper-button-prev {
-  right: -5.208vw;
+  right: -8.208vw;
   left: auto;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  top: 58%
+  top: 60%
 }
 
 .four_block .swiper-button-prev,
 .four_block .swiper-rtl .swiper-button-next {
   left: auto;
-  right: -5.208vw;
+  right: -8.208vw;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  top: 43%
+  top: 40%
 }
 
 .four_block .swiper-button-next:after,
@@ -1235,7 +1235,21 @@ input:focus::-webkit-input-placeholder {
 .four_block .swiper-button-next,
 .four_block .swiper-button-prev {
   color: #222223;
-  opacity: .7
+  opacity: .7;
+  transition: 0.3s ease-in;
+  width: 4.115vw;
+  height: 4.115vw;
+  border-radius: 26.042vw;
+background:transparent;
+}
+.four_block .swiper-button-next:hover,.four_block .swiper-button-prev:hover{
+  width: 4.115vw;
+height: 4.115vw;
+color: #FFFFFF;
+border-radius: 26.042vw;
+background: #5698BD;
+transition: 0.3s ease-in;
+opacity: 1;
 }
 
 .no-webp .five_block {
