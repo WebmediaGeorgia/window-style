@@ -6,4 +6,5 @@ window.addEventListener('DOMContentLoaded', (event) => {
     breadScrumb.style.cursor = 'pointer'
    
    }
+
 });
