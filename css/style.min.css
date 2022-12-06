@@ -11574,7 +11574,8 @@ color: #212121;
 }
 
 .webp .catalog_page .filter_close {
-  background: url(../img/arrow-hidden.webp)
+  background: url(../img/arrow-hidden.webp);
+  background-size: 100%;
 }
 
 .webp .catalog_page .tumb_iten {
