@@ -1,0 +1,32 @@
+2022-12-11T06:10:29+00:00 CRITICAL syntax error, unexpected ',' в /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/woocommerce/content-single-product.php на строке 315
+
+2022-12-11T06:38:50+00:00 CRITICAL 'continue' not in the 'loop' or 'switch' context в /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/woocommerce/single-product/product-attributes.php на строке 26
+
+2022-12-11T12:33:37+00:00 CRITICAL Constant expression contains invalid operations в /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/main_page.php на строке 41
+
+2022-12-11T12:33:55+00:00 CRITICAL Constant expression contains invalid operations в /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/main_page.php на строке 41
+
+2022-12-11T22:10:25+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/footer.php:37
+Stack trace:
+#0 /Applications/MAMP/htdocs/windows_style/wp-includes/template.php(783): require_once()
+#1 /Applications/MAMP/htdocs/windows_style/wp-includes/template.php(718): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/windows_style/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/woocommerce/single-product.php(49): get_footer('shop')
+#4 /Applications/MAMP/htdocs/windows_style/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/windows_style/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/windows_style/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown в /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/footer.php на строке 37
+
+2022-12-11T22:11:02+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/footer.php:37
+Stack trace:
+#0 /Applications/MAMP/htdocs/windows_style/wp-includes/template.php(783): require_once()
+#1 /Applications/MAMP/htdocs/windows_style/wp-includes/template.php(718): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/windows_style/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/woocommerce/single-product.php(49): get_footer('shop')
+#4 /Applications/MAMP/htdocs/windows_style/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/windows_style/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/windows_style/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown в /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/footer.php на строке 37
+

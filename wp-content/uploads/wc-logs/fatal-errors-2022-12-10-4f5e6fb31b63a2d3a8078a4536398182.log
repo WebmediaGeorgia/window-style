@@ -1,0 +1,6 @@
+2022-12-10T13:49:27+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) в /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/woocommerce/content-single-product.php на строке 124
+
+2022-12-10T15:08:00+00:00 CRITICAL syntax error, unexpected '" </div>"' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' в /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/woocommerce/content-single-product.php на строке 131
+
+2022-12-10T15:15:26+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) в /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/woocommerce/content-single-product.php на строке 119
+

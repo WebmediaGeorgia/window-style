@@ -1,0 +1,10 @@
+2022-12-12T00:07:33+00:00 CRITICAL syntax error, unexpected end of file в /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/main_page.php на строке 483
+
+2022-12-12T00:43:40+00:00 CRITICAL Uncaught Error: Call to undefined function post_thumbnail() in /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/main_page.php:216
+Stack trace:
+#0 /Applications/MAMP/htdocs/windows_style/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/windows_style/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/windows_style/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown в /Applications/MAMP/htdocs/windows_style/wp-content/themes/windows_style/main_page.php на строке 216
+
