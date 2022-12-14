@@ -23,9 +23,9 @@ get_header();
 ?>
 
 <div class=" catalog_page" style="display:flex;">
-  <div class="breadscrumbs container">
+<div class="breadscrumbs container">
     <a href="<?php $url = site_url('');
-              echo $url; ?>" class="home">მთავარი</a><span class="page">კატალოგი</span>
+              echo $url; ?>" class="home">მთავარი</a><span class="page">კატალოგი</span><span onclick="window.history.go(-1)" class="page_hidden_bread">უკან</span>
   </div>
   <div class="container catalog_content">
 

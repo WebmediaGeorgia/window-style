@@ -49,9 +49,9 @@ $img_full = $product->get_image();
 
 <section class="product_page_block">
   <div class="container">
-    <div class="breadscrumbs content">
+  <div class="breadscrumbs content">
       <a href="<?php $url = site_url('');
-                echo $url; ?>" class="home">მთავარი</a><span class="page"><?php the_title(); ?></span>
+                echo $url; ?>" class="home">მთავარი</a><span  class="page"><?php the_title(); ?></span><span onclick="window.history.go(-1)" class="page_hidden_bread">უკან</span>
     </div>
     <div class="content page_content">
       <div class="product_page_left">

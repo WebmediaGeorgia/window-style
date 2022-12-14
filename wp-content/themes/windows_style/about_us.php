@@ -9,8 +9,8 @@ Template Post Type: post, page, product
 <main class="main banner_about_main">
     <section class="banner_about">
   <div class="container">
-    <div class="breadscrumbs">
-      <a href="<?php $url = site_url(''); echo $url; ?>" class="home">მთავარი</a><span class="page">ჩვენს შესახებ</span>
+  <div class="breadscrumbs">
+      <a href="<?php $url = site_url(''); echo $url; ?>" class="home">მთავარი</a><span class="page">ჩვენს შესახებ</span><span onclick="window.history.go(-1)" class="page_hidden_bread" style="color:azure">უკან</span>
     </div>
     <div class="block_logo">
       <div class="logo_about">

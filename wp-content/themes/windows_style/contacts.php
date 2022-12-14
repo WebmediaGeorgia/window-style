@@ -8,8 +8,8 @@ Template Post Type: post, page, product
 
 <main class="main">
     <section class="map_contacts">
-  <div class="breadscrumbs container">
-    <a href="<?php $url = site_url(''); echo $url; ?>" class="home">მთავარი</a><span class="page">კონტაქტები</span>
+    <div class="breadscrumbs container">
+    <a href="<?php $url = site_url(''); echo $url; ?>" class="home">მთავარი</a><span class="page">კონტაქტები</span><span onclick="window.history.go(-1)" class="page_hidden_bread">უკან</span>
   </div>
   <div class="contact_block">
     <h2 class="title">კონტაქტები:</h2>

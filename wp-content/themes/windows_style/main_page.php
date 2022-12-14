@@ -97,7 +97,7 @@ foreach ($categories as $category) {
         </picture>
       </div>
       <p class="text_quote"><span>WINDOW STYLE - </span>ჩვენი პროდუქცია აკმაყოფილებს ხარისხის საერთაშორისო სტანდარტებს, გამოირჩევა ნედლეულის უდაო ხარისხით და მაღალი <br> ტექნოლოგიურობით!</p>
-      <a href="#" class="transparent_bnt btn">მეტი კომპანიის შესახებ</a>
+      <a href="<?php $url = site_url('/about_us/'); echo $url; ?>" class="transparent_bnt btn">მეტი კომპანიის შესახებ</a>
 
     </div>
     <div class="img_animation">
