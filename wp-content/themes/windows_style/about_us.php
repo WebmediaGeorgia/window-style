@@ -16,7 +16,7 @@ Template Post Type: post, page, product
       <div class="logo_about">
         <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/logoblu.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/logoblu.png" alt="logo" /></picture>
       </div>
-      <h1 class="name">კომპანიის შესახებ</h1>
+      <h1 class="name"><?php the_field('title'); ?></h1>
     </div>
   </div>
   <div class="img_banner">
@@ -26,12 +26,12 @@ Template Post Type: post, page, product
 
     <section class="gallery_about">
   <div class="content container ">
-  <h2 class="title">ვინ ვართ ჩვენ?</h2>
+  <h2 class="title"><?php the_field('title_2'); ?></h2>
     <div class="block_content">
     <div class="text_block">
-              <h3 class="title_text">ხარისხიანი</h3>
+              <h3 class="title_text"><?php the_field('subtitle_1'); ?></h3>
               <p class="text">
-                Window style კომპანიის თითოეული თანამშრომელი თავისი დარგის მაღალკვალიფიციური სპეციალისტია. ოსტატი, რომელსაც შეუძლია პირადად აზომოს,, დაამონტაჟოს ფანჯარა და შეცვალოს კარი ახლით.
+              <?php the_field('text_1'); ?>
               </p>
               <div class="numbers" style="display: none;">
                 <div class="numbers_block">
@@ -50,9 +50,9 @@ Template Post Type: post, page, product
     </div>
     <div class="block_content revert">
     <div class="text_block">
-              <h3 class="title_text">ხელმისაწვდომი ფასები</h3>
+              <h3 class="title_text"><?php the_field('subtitle_2'); ?></h3>
               <p class="text">
-                ჩვენ ვცდილობთ შევინარჩუნოთ ჩვენი ფასები კონკურენტუნარიანი,რათა რაც შეიძლება მეტმა მომხმარებელმა მიიღოს შესაძლებლობა შეცვალოს ფანჯრები და კარები ახლით
+              <?php the_field('text_2'); ?>
               </p>
               <div class="numbers" style="display: none;">
                 <div class="numbers_block">
@@ -70,8 +70,20 @@ Template Post Type: post, page, product
       </div>
     </div>
   </div>
+  <?php 
 
-  <div class="galleru">
+$images = get_field('gallery');
+
+if( $images ): ?>
+   <div class="galleru">
+            <?php foreach( $images as $image ): ?>
+              <div class="img_gallery">
+      <picture><source srcset="<?php bloginfo("template_url"); ?><?php echo $image['link_img']; ?>" type="image/webp"><img src="<?php bloginfo("template_url"); ?><?php echo $image['link_img']; ?>" alt="gallery"></picture>
+    </div>
+            <?php endforeach; ?>
+    </div>
+<?php endif; ?>
+  <!-- <div class="galleru">
     <div class="img_gallery">
       <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/01.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/01.png" alt="gallery"></picture>
     </div>
@@ -96,7 +108,7 @@ Template Post Type: post, page, product
     <div class="img_gallery">
       <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/05.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/05.png" alt="gallery"></picture>
     </div>
-  </div>
+  </div> -->
 </section>
     <section class="five_block">
   <div class="container">

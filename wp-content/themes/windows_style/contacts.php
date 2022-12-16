@@ -12,19 +12,19 @@ Template Post Type: post, page, product
     <a href="<?php $url = site_url(''); echo $url; ?>" class="home">მთავარი</a><span class="page">კონტაქტები</span><span onclick="window.history.go(-1)" class="page_hidden_bread">უკან</span>
   </div>
   <div class="contact_block">
-    <h2 class="title">კონტაქტები:</h2>
+    <h2 class="title"><?php the_field('title_map',14); ?></h2>
     <div class="contact_item_block">
       <div class="contact_item">
-        <p class="title_item">მისამართი:</p>
-        <p class="subtitle_item map_item"><a href="https://yandex.by/maps/10277/tbilisi/house/YE0YcQJpSEYDQFprfXtwdXhjZw==/?ll=44.759134%2C41.714403&z=17.05" target="_blank">თბილისი, ნიკოლოზ ყიფშიძის ქუჩა, კორპუსი 10, ა.შ. 85</a> </p>
+        <p class="title_item"><?php the_field('title_map',14); ?></p>
+        <p class="subtitle_item map_item"><a href="<?php the_field('adress_link',14); ?>" target="_blank"><?php the_field('adress',14); ?></a> </p>
       </div>
       <div class="contact_item">
         <p class="title_item">ელ. ფოსტა:</p>
-        <p class="subtitle_item mail_item"><a href="mailto:infowindowsstyle@gmail.com">infowindowsstyle@gmail.com</a></p>
+        <p class="subtitle_item mail_item"><a href="mailto:<?php the_field('email',14); ?>"><?php the_field('email',14); ?></a></p>
       </div>
       <div class="contact_item">
         <p class="title_item">ტელეფონი:</p>
-        <p class="subtitle_item phone_item"><a href="tel:+995574229799">+995 574 229 799</a></p>
+        <p class="subtitle_item phone_item"><a href="tel:<?php the_field('phone_link',14); ?>"><?php the_field('phone-_map',14); ?></a></p>
       </div>
       
 

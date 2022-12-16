@@ -26,16 +26,16 @@
       </div>
       <div class="header_logo">
         <picture>
-          <source srcset="<?php bloginfo("template_url"); ?>/assets/img/LOGO.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/LOGO.png" alt="logo" class="logo_img" />
+          <source srcset="<?php bloginfo("template_url"); ?><?php the_field('logo',14); ?>" type="image/webp"><img src="<?php bloginfo("template_url"); ?><?php the_field('logo',14); ?>" alt="logo" class="logo_img" />
         </picture>
       </div>
       <div class="tel_header">
-      <a href="tel:+995574229799">+ 995 574 229 799</a>
+      <a href="tel:<?php the_field('phone_link',14); ?>"><?php the_field('phone-_map',14); ?></a>
       </div>
     </div>
     <hr class="header_hr" />
     <div class="header_down container">
-    <span class="attention_text">განვადება 12 თვეზე , პირველადი შენატანი 0%, ზედმეტი გადასახადი 0%, მიწოდება, გაზომვა და მონტაჟი თქვენთვის მოსახერხებელ დროს</span>
+    <span class="attention_text"><?php the_field('attention_text',14); ?></span>
     </div>
     <div class="burger-menu">
       <div class="wrapper">
@@ -52,17 +52,7 @@
 
           <div class="button-form">
             <div class="form-for-credit">
-
-              <form action="#">
-                <div class="block-input">
-                <input type="text" class="fio" name="fio" value="" placeholder="თქვენი სახელი">
-                  <input type="text" class="tel" name="tel" value="" placeholder="თქვენი ტელეფონი">
-                </div>
-                <div class="block-input">
-                <div class="button-sub"><button class="blue_btn" type="submit">განცხადების დატოვება</button></div>
-                </div>
-
-              </form>
+            <?php echo do_shortcode('[contact-form-7 id="159" title="Контактная форма_burger"]') ?>
             </div>
           </div>
         </div>

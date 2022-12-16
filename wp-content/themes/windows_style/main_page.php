@@ -9,22 +9,19 @@ Template Post Type: post, page, product
   <section class="first_block">
     <div class="container">
       <div class="first_block_content">
-        <h1 class="title">საუკეთესო ფანჯრები მწარმოებლისაგან</h1>
+        <h1 class="title"><?php the_field('title_1'); ?></h1>
         <p class="subtitle">
-          იმისათვის, რომ ფანჯრის მონტაჟი იყოს უზადო, მნიშვნელოვანია იცოდეთ ბევრი ნიუანსი. Window style-ის კომპანიის სპეციალისტები შესანიშნავად უმკლავდებიან ამ ამოცანას!
+        <?php the_field('subtitle_1'); ?>
         </p>
         <a href="<?php $url = site_url('/about_us/');
-                  echo $url; ?>" class="button transparent_bnt">კატალოგში გადასვლა</a>
+                  echo $url; ?>" class="button transparent_bnt"><?php the_field('btn1_title'); ?></a>
         <div class="benefits">
           <div class="benefits_item">
-            <p class="bold_text">რამოდენიმე <br> წელი ბაზარზე</p>
-
+          <?php the_field('benefit_1'); ?>
           </div>
           <div class="benefits_item">
-            <p class="bold_text">ათობით დამონტაჟებული <br> ფანჯარა</p>
-
+          <?php the_field('benefit_2'); ?>
           </div>
-
         </div>
       </div>
     </div>
@@ -96,8 +93,8 @@ foreach ($categories as $category) {
           <source srcset="<?php bloginfo("template_url"); ?>/assets/img/quote.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/quote.png" alt="quote">
         </picture>
       </div>
-      <p class="text_quote"><span>WINDOW STYLE - </span>ჩვენი პროდუქცია აკმაყოფილებს ხარისხის საერთაშორისო სტანდარტებს, გამოირჩევა ნედლეულის უდაო ხარისხით და მაღალი <br> ტექნოლოგიურობით!</p>
-      <a href="<?php $url = site_url('/about_us/'); echo $url; ?>" class="transparent_bnt btn">მეტი კომპანიის შესახებ</a>
+      <?php the_field('title_3'); ?>
+      <a href="<?php $url = site_url('/about_us/'); echo $url; ?>" class="transparent_bnt btn"><?php the_field('btn3_title'); ?></a>
 
     </div>
     <div class="img_animation">
@@ -113,10 +110,9 @@ foreach ($categories as $category) {
     <div class="container">
       <div class="content">
         <div class="services">
-          <h2 class="title">Ჩვენი სერვისები</h2>
-          <p class="text">ჩვენი კომპანია სპეციალიზირებულია მეტალოპლასტმასის ფანჯრებისა და კარებების წარმოებასა და მონტაჟზე თბილისსა და მიმდებარე ქალაქებში.</p>
+        <?php the_field('title_4'); ?>
           <a href="<?php $url = site_url('/about_us/');
-                    echo $url; ?>" class="btn transparent_bnt">მეტი სერვისების შესახებ</a>
+                    echo $url; ?>" class="btn transparent_bnt"><?php the_field('btn3_title'); ?></a>
         </div>
         <div class="slider_for_servises">
           <div class="my_first_slider_container swiper">
@@ -304,19 +300,19 @@ foreach ($categories as $category) {
   </section>
   <section class="map">
     <div class="contact_block">
-      <h2 class="title">კონტაქტები:</h2>
+      <h2 class="title"><?php the_field('title_map'); ?></h2>
       <div class="contact_item">
         <p class="title_item">მისამართი:</p>
-        <p class="subtitle_item map_item"><a href="https://yandex.by/maps/geo/53168524/?ll=44.807302%2C41.731716&z=11.97" target="_blank">თბილისი, ნიკოლოზ ყიფშიძის ქუჩა, კორპუსი 10, ა.შ. 85</a> </p>
+        <p class="subtitle_item map_item"><a href="<?php the_field('adress_link'); ?>" target="_blank"><?php the_field('adress'); ?></a> </p>
       </div>
       <div class="contact_item">
         <p class="title_item">ელ. ფოსტა:</p>
-        <p class="subtitle_item mail_item"><a href="mailto:infowindowsstyle@gmail.com">infowindowstyle@gmail.com</a>
+        <p class="subtitle_item mail_item"><a href="mailto:<?php the_field('email'); ?>"><?php the_field('email'); ?></a>
         </p>
       </div>
       <div class="contact_item">
         <p class="title_item">ტელეფონი:</p>
-        <p class="subtitle_item phone_item"><a href="tel:+995574229799">+995 574 229 799</a></p>
+        <p class="subtitle_item phone_item"><a href="tel:<?php the_field('phone_link'); ?>"><?php the_field('phone-_map'); ?></a></p>
       </div>
       <div class="contact_item" style="display: none;">
         <p class="title_item">Соцсети</p>

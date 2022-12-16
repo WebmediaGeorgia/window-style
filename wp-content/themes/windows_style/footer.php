@@ -18,12 +18,12 @@
       </div>
 
       <div class="contacts_footer">
-        <div class="tel"><a href="#popup-callback-me">+995 574 229 799</a></div>
-        <div class="email"><a href="mailto:infowindowsstyle@gmail.com">infowindowsstyle@gmail.com</a></div>
+        <div class="tel"><a href="#popup-callback-me"><?php the_field('phone-_map',14); ?></a></div>
+        <div class="email"><a href="mailto:<?php the_field('email',14); ?>"><?php the_field('email',14); ?></a></div>
       </div>
     </div>
     <div class="blick_down">
-      <p class="quote">© 2020 Lift Media. All rights reserved</p>
+      <p class="quote"><?php the_field('down_text',14); ?></p>
     </div>
 
   </div>
