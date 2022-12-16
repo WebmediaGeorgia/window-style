@@ -62,7 +62,7 @@
 <div class="popap-form-two popur-succsecc" id="popap-succsess">
 
 
-  <a href="#head" class="popap-area close-popap-form">Закрыть</a>
+  <a href="#head" class="popap-area close-popap-form"></a>
   <div class="popup-body">
     <div class="popup-content">
 

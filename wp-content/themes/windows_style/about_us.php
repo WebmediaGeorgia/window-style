@@ -85,32 +85,6 @@ if( $images ): ?>
   
 <?php endif; ?>
 </div>
-  <!-- <div class="galleru">
-    <div class="img_gallery">
-      <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/01.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/01.png" alt="gallery"></picture>
-    </div>
-    <div class="img_gallery">
-      <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/04.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/04.png" alt="gallery"></picture>
-    </div>
-    <div class="img_gallery">
-      <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/02.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/02.png" alt="gallery"></picture>
-    </div>
-    <div class="img_gallery">
-      <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/03.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/03.png" alt="gallery"></picture>
-    </div>
-    <div class="img_gallery">
-      <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/05.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/05.png" alt="gallery"></picture>
-    </div>
-    <div class="img_gallery">
-      <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/04.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/04.png" alt="gallery"></picture>
-    </div>
-    <div class="img_gallery">
-      <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/01.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/01.png" alt="gallery"></picture>
-    </div>
-    <div class="img_gallery">
-      <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/05.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/05.png" alt="gallery"></picture>
-    </div>
-  </div> -->
 </section>
     <section class="five_block">
   <div class="container">
