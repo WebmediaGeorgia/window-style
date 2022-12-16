@@ -73,11 +73,12 @@ msgstr "Настройте отображение количества това�
 #: /Users/Jeroen/plugins/woocommerce-products-per-page/trunk/objects/wppp-dropdown.php:49
 #, php-format
 msgid "%s products per page"
-msgstr "Товаров на странице: %s"
+msgstr "ჩვენება: %s"
 
 #: /Users/Jeroen/plugins/woocommerce-products-per-page/trunk/objects/wppp-dropdown.php:50
 msgid "All"
-msgstr "все"
+msgstr "
+ყველას"
 
 #@ woocommerce-products-per-page
 #: includes/class-wppp-settings.php:95
