@@ -70,19 +70,21 @@ Template Post Type: post, page, product
       </div>
     </div>
   </div>
+  <div class="galleru">
   <?php 
 
-$images = get_field('gallery');
+$images = get_field('galery');
 
 if( $images ): ?>
-   <div class="galleru">
+   
             <?php foreach( $images as $image ): ?>
               <div class="img_gallery">
       <picture><source srcset="<?php bloginfo("template_url"); ?><?php echo $image['link_img']; ?>" type="image/webp"><img src="<?php bloginfo("template_url"); ?><?php echo $image['link_img']; ?>" alt="gallery"></picture>
     </div>
             <?php endforeach; ?>
-    </div>
+  
 <?php endif; ?>
+</div>
   <!-- <div class="galleru">
     <div class="img_gallery">
       <picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/01.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/01.png" alt="gallery"></picture>
