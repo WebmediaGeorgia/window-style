@@ -134,4 +134,32 @@ window.addEventListener("DOMContentLoaded", (event) => {
   relevant_title.style.display='block'
  }
 
+
+   // ********скрыть надпись Недавно Смотрели если нет продуктов
+   let btn_order = document.querySelector('.button_for_byu');
+   if(btn_order){
+     btn_order.addEventListener('click',()=>{
+     let size_rel = document.querySelector('.size-hidden');
+     let model_rel = document.querySelector('.model-hidden');
+     let color_rel = document.querySelector('.color-hidden');
+     let size_rel_input = document.querySelector('.size_item.active');
+     let model_rel_input = document.querySelector('.name_product');
+     let color_rel_input= document.querySelector('.color_item.active');
+     if(size_rel_input){
+       size_rel.value=size_rel_input.innerHTML;
+     }
+     if(model_rel_input){
+       model_rel.value = model_rel_input.innerHTML;
+     }
+     if(color_rel_input){
+       color_rel.value = color_rel_input.innerHTML;
+     }
+   
+     
+     console.log(size_rel.value);
+     console.log(model_rel.value);
+     console.log(color_rel.value);
+   })
+   }
+
 });
