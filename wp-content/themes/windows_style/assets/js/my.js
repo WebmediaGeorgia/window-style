@@ -1,10 +1,5 @@
 window.addEventListener("DOMContentLoaded", (event) => {
-  let breadScrumb = document.querySelector(".breadscrumbs .page");
-  if (window.innerWidth < 601) {
-    if (breadScrumb) {
-      breadScrumb.style.display = "none";
-    }
-  }
+
 
   // ********POPUP при успешной отправке формы
   const form = document.querySelectorAll(".wpcf7");

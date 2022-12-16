@@ -1527,7 +1527,8 @@ ins {
   width: 19.583vw;
   height: 18.958vw;
   overflow: hidden;
-  border-radius: .521vw
+  border-radius: .521vw;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
 .new_models .slide_model_itemm .img_slider img {
