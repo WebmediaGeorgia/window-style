@@ -120,4 +120,18 @@ window.addEventListener("DOMContentLoaded", (event) => {
   if (all_colors) {
     add_active_color();
   }
+
+
+  // ********скрыть надпись Недавно Смотрели если нет продуктов
+
+ let relevant_title = document.querySelector('.product_page_bg .new_models h2.title')
+
+ let block_relevant_prod = document.querySelector('.product_page_bg .new_models .woocommerce.columns-4 ')
+
+ if(!block_relevant_prod){
+  relevant_title.style.display='none'
+ }else{
+  relevant_title.style.display='block'
+ }
+
 });
