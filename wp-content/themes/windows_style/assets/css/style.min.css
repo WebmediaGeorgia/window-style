@@ -592,7 +592,8 @@ input:focus::-webkit-input-placeholder {
   padding-top: 6.25vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  overflow: hidden
+  overflow: hidden;
+  height: 100vh;
 }
 
 .first_block .first_block_content {
@@ -677,8 +678,8 @@ input:focus::-webkit-input-placeholder {
 
 .first_block .first_img {
   position: absolute;
-  width: 63.281vw;
-  height: 47.708vw;
+  width: 55vw;
+  height: auto;
   right: 0;
   bottom: 0;
   z-index: 0
@@ -797,9 +798,9 @@ input:focus::-webkit-input-placeholder {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-  -webkit-transition: .7s ease-in;
-  -o-transition: .7s ease-in;
-  transition: .7s ease-in
+  -webkit-transition: .35s ease-in;
+  -o-transition: .35s ease-in;
+  transition: .35s ease-in
 }
 
 .second_block .img_bg {
@@ -812,9 +813,9 @@ input:focus::-webkit-input-placeholder {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  -webkit-transition: .7s ease-in;
-  -o-transition: .7s ease-in;
-  transition: .7s ease-in
+  -webkit-transition: .35s ease-in;
+  -o-transition: .35s ease-in;
+  transition: .35s ease-in
 }
 
 .second_block .name_category {
@@ -829,9 +830,9 @@ input:focus::-webkit-input-placeholder {
   line-height: 1.354vw;
   color: #222223;
   padding-left: 1.302vw;
-  -webkit-transition: .7s ease-in;
-  -o-transition: .7s ease-in;
-  transition: .7s ease-in
+  -webkit-transition: .35s ease-in;
+  -o-transition: .35s ease-in;
+  transition: .35s ease-in
 }
 
 .second_block .btn {
