@@ -129,7 +129,7 @@ $img_full = $product->get_image();
          * @hooked woocommerce_template_single_sharing - 50
          * @hooked WC_Structured_Data::generate_product_data() - 60
          */
-       do_action('woocommerce_single_product_summary');
+       //do_action('woocommerce_single_product_summary');
         ?>
         </div>
        
