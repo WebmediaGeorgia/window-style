@@ -24,12 +24,12 @@
         <div class="burger_tr three"></div>
         <div class="burger_black four"></div>
       </div>
-      <div class="header_logo">
+      <a href="<?php $url = site_url(''); echo $url; ?>" class="header_logo">
         <picture>
           <source srcset="<?php bloginfo("template_url"); ?><?php the_field('logo',14); ?>" type="image/webp"><img src="<?php bloginfo("template_url"); ?><?php the_field('logo',14); ?>" alt="logo" class="logo_img" />
         </picture>
-      </div>
-      <div class="tel_header">
+      </a>
+      <div class="tel_header transparent_bnt">
       <a href="tel:<?php the_field('phone_link',14); ?>"><?php the_field('phone-_map',14); ?></a>
       </div>
     </div>

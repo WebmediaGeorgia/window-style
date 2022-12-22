@@ -31,7 +31,7 @@ Template Post Type: post, page, product
     </div>
    
   </div>
-  <div class="map_img"><picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/contacts-map.png" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/contacts-map.png" alt="map"></picture></div>
+  <a href="<?php the_field('adress_link'); ?>" target="_blank"  class="map_img"><picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/contacts-map.png" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/contacts-map.png" alt="map"></picture></a>
   <div class="plase"><picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/place.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/place.png" alt="place"></picture></div>
   <div class="white_plase"><picture><source srcset="<?php bloginfo("template_url"); ?>/assets/img/el_map-marker.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/el_map-marker.png" alt="place"></picture></div>
 </section> 

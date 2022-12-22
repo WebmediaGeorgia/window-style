@@ -38,10 +38,13 @@
 }
 
 .unvisible_content {
-  visibility: hidden;
-  height: 0;
-  opacity: 0;
-  pointer-events: none;
+     visibility: visible;
+    height: auto;
+    opacity: 1;
+
+}
+.unvisible_content .woocommerce-variation-add-to-cart,.unvisible_content .reset_variations{
+    display:none;
 }
 
 .sort_items .woocommerce-notices-wrapper {
@@ -397,6 +400,13 @@ ul.page-numbers li a.woocommerce-LoopProduct-link.woocommerce-loop-product__link
 }
 
 @media only screen and (max-width:600px) {
+    .new_models .slick-list .slide_model_itemm{
+            width: 90vw !important;
+        
+    }
+    .new_models .slick-track {
+    gap: 0;
+}
   .woof_radio_term_reset.woof_radio_term_reset_visible{
     background-image: url(../img/vector_cl.png)!important;
     background-size: 100% 100%;
@@ -471,3 +481,174 @@ ul.page-numbers li a.woocommerce-LoopProduct-link.woocommerce-loop-product__link
     margin-top: 16vw;
   }
 }
+.webp .footer .tel{
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    
+    
+}
+.webp .footer .tel a{
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    
+    
+}
+.webp .footer .tel a::before {
+      -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+}
+.webp .footer .tel:hover{
+    background: #fff;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    
+    
+}
+.webp .footer .tel:hover a{
+    color: #5496bb;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    
+    
+}
+.webp .footer .tel:hover  a::before {
+    background: url(../img/carbon_phone-filled.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+      -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+}
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ubuntu-v20-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/ubuntu-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-v20-latin-regular.woff2") format("woff2"), url("../fonts/ubuntu-v20-latin-regular.woff") format("woff"), url("../fonts/ubuntu-v20-latin-regular.ttf") format("truetype"), url("../fonts/ubuntu-v20-latin-regular.svg#Ubuntu") format("svg"); /* Legacy iOS */
+}
+.development {
+  overflow: hidden;
+  width: 100%;
+  height: 2.604vw;
+  background:transparent;
+  border-top: 0.052vw solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.development a {
+  box-sizing: border-box;
+  position: relative;
+  text-decoration: none;
+  padding: 0 0.781vw;
+  width: 10.938vw;
+  height: 1.563vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 0.365vw;
+  gap: 0;
+  background-image: url(../img/webmedia-border.svg);;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.development a img {
+  position: absolute;
+  left: 0vw;
+  width: 2.083vw;
+  height: auto;
+  transform: translateY(-10%);
+}
+.development a span {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.729vw;
+  line-height: 0.833vw;
+  color: #e3e3e3;
+}
+.development a:hover {
+  -webkit-animation: 0.35s tremor ease-out;
+          animation: 0.35s tremor ease-out;
+}
+
+@media only screen and (max-width: 1280px) {
+  .development {
+    height: 2.93vw;
+    border-top: 0.098vw solid rgba(255, 255, 255, 0.1);
+  }
+  .development a {
+    padding: 0 0.977vw;
+    width: 15.625vw;
+    height: 1.953vw;
+    border-radius: 0.488vw;
+    background-image:url(../img/webmedia-border-tablet.svg);
+  }
+  .development a img {
+    width: 2.93vw;
+  }
+  .development a span {
+    font-size: 1.074vw;
+    line-height: 1.172vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .development {
+    height: 8vw;
+    border-top: 0.267vw solid rgba(255, 255, 255, 0.1);
+  }
+  .development a {
+    padding: 0 2.667vw;
+    width: 42.667vw;
+    height: 5.333vw;
+    border-radius: 1.333vw;
+  }
+  .development a img {
+    width: 8vw;
+  }
+  .development a span {
+    font-size: 2.933vw;
+    line-height: 3.2vw;
+  }
+}
+@-webkit-keyframes tremor {
+  0% {
+    transform: translateX(-0.5%);
+  }
+  25% {
+    transform: translateX(0.5%);
+  }
+  50% {
+    transform: translateX(-0.5%);
+  }
+  75% {
+    transform: translateX(0.5%);
+  }
+  100% {
+    transform: translateX(-0.5%);
+  }
+}
+@keyframes tremor {
+  0% {
+    transform: translateX(-0.5%);
+  }
+  25% {
+    transform: translateX(0.5%);
+  }
+  50% {
+    transform: translateX(-0.5%);
+  }
+  75% {
+    transform: translateX(0.5%);
+  }
+  100% {
+    transform: translateX(-0.5%);
+  }
+}/*# sourceMappingURL=style.css.map */

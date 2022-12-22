@@ -7,14 +7,13 @@ Template Post Type: post, page, product
 <?php get_header(); ?>
 <main class="main">
   <section class="first_block">
-    <div class="container">
+    <div class="container first_block_container">
       <div class="first_block_content">
         <h1 class="title"><?php the_field('title_1'); ?></h1>
         <p class="subtitle">
         <?php the_field('subtitle_1'); ?>
         </p>
-        <a href="<?php $url = site_url('/about_us/');
-                  echo $url; ?>" class="button transparent_bnt"><?php the_field('btn1_title'); ?></a>
+        <a href="<?php $url = site_url('/catalog/'); echo $url; ?>"  class="button transparent_bnt"><?php the_field('btn1_title'); ?></a>
         <div class="benefits">
           <div class="benefits_item">
           <?php the_field('benefit_1'); ?>
@@ -74,10 +73,10 @@ foreach ($categories as $category) {
 
         echo $li_menu;
 
-        ?>
+        ?> </div>
         <a href="<?php $url = site_url('/catalog/');
                   echo $url; ?>" class="blue_btn btn">კატალოგში გადასვლა</a>
-      </div>
+     
     </div>
     <div class="img_second">
       <picture>
@@ -118,7 +117,8 @@ foreach ($categories as $category) {
           <div class="my_first_slider_container swiper">
             <div class="my_first_slider swiper-wrapper">
               <div class="my-slide swiper-slide">
-                <div class="img_slide">
+                  <div class="slide_wrap">
+                        <div class="img_slide">
                   <picture>
                     <source srcset="<?php bloginfo("template_url"); ?>/assets/img/slide1.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/slide1.png" alt="slide">
                   </picture>
@@ -127,10 +127,13 @@ foreach ($categories as $category) {
                   <p class="text_slider">ფანჯრების გაზომვა და მონტაჟი კლიენტის ფანჯრების ღიობების ინდივიდუალური გაზომვების შესაბამისად. დაყენება ხორციელდება საერთაშორისო სტანდარტების გათვალისწინებით, პროფილის დამზადების მასალებისა და მომხმარებლის პირადი მოთხოვნილებების გათვალისწინებით..</p>
                   <p class="number">01</p>
                 </div>
+                  </div>
+              
               </div>
 
               <div class="my-slide swiper-slide">
-                <div class="img_slide">
+                  <div class="slide_wrap">
+                        <div class="img_slide">
                   <picture>
                     <source srcset="<?php bloginfo("template_url"); ?>/assets/img/slide3.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/slide3.png" alt="slide">
                   </picture>
@@ -139,10 +142,12 @@ foreach ($categories as $category) {
 
                   <p class="text_slider">მეტალოპლასტმასის კარების მონტაჟი და რეგულირება (ან ალუმინის პროფილის არჩევანი). წინასწარ სპეციალისტები გაზომავენ კარისკარიბჭეს, დაყენების შემდეგ კი ასწორებენ მექანიზმის მუშაობას ისე, რომ კარები უპრობლემოდ გაიღოს და დაიხუროს.</p>
                   <p class="number">02</p>
-                </div>
+                </div>  
+                  </div>
+            
               </div>
               <div class="my-slide swiper-slide">
-                <div class="img_slide">
+                  <div class="slide_wrap"><div class="img_slide">
                   <picture>
                     <source srcset="<?php bloginfo("template_url"); ?>/assets/img/3slide.png" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/3slide.png" alt="slide">
                   </picture>
@@ -150,7 +155,8 @@ foreach ($categories as $category) {
                 <div class="slide_descript">
                   <p class="text_slider">ვიტრაჟის სურათის დამზადება და მონტაჟი ფანჯრის ან კარის პროფილში. ვიტრაჟის დიზაინი და ზომები პირდაპირ დამოკიდებულია კლიენტის მოთხოვნილებაზე. ჩვენი სპეციალისტები კი იძლევიან მაღალი ხარისხის პროდუქციის და კონსტრუქციის მაქსიმალურ გამძლეობის გარანტიას.</p>
                   <p class="number">03</p>
-                </div>
+                </div></div>
+                
               </div>
 
             </div>
@@ -203,7 +209,7 @@ foreach ($categories as $category) {
 
   ?>
   <section class="new_models first-page">
-    <div class="content">
+    <div class="content container">
       <h2 class="title">ახალი მოდელები</h2>
 
       <?php if ($products->have_posts()) { ?>
@@ -319,11 +325,11 @@ foreach ($categories as $category) {
         <p class="sotial_item"><a href="#" class="vk"></a><a href="#" class="fb"></a><a href="#" class="yuotub"></a><a href="" class="inst"></a> </p>
       </div>
     </div>
-    <div class="map_img">
+    <a href="<?php the_field('adress_link'); ?>" target="_blank" class="map_img">
       <picture>
         <source srcset="<?php bloginfo("template_url"); ?>/assets/img/contacts-map.png" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/contacts-map.png" alt="map">
       </picture>
-    </div>
+    </a>
     <div class="plase">
       <picture>
         <source srcset="<?php bloginfo("template_url"); ?>/assets/img/place.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/place.png" alt="place">

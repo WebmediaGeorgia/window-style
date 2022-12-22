@@ -1,0 +1,36 @@
+2022-12-17T09:11:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Woo_Variation_Swatches_Product_Page::get_item_css_classes(), 1 passed in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php on line 133 and at least 2 expected in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php:380
+Stack trace:
+#0 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(133): Woo_Variation_Swatches_Product_Page->get_item_css_classes(Array)
+#1 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(306): Woo_Variation_Swatches_Pro_Product_Page->get_item_css_classes(Array)
+#2 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-v в /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php на строке 380
+
+2022-12-17T09:12:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Woo_Variation_Swatches_Product_Page::get_item_css_classes(), 1 passed in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php on line 133 and at least 2 expected in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php:380
+Stack trace:
+#0 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(133): Woo_Variation_Swatches_Product_Page->get_item_css_classes(Array)
+#1 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(306): Woo_Variation_Swatches_Pro_Product_Page->get_item_css_classes(Array)
+#2 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-v в /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php на строке 380
+
+2022-12-17T09:19:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Woo_Variation_Swatches_Product_Page::get_item_css_classes(), 1 passed in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php on line 133 and at least 2 expected in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php:380
+Stack trace:
+#0 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(133): Woo_Variation_Swatches_Product_Page->get_item_css_classes(Array)
+#1 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(306): Woo_Variation_Swatches_Pro_Product_Page->get_item_css_classes(Array)
+#2 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-v в /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php на строке 380
+
+2022-12-17T09:23:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Woo_Variation_Swatches_Product_Page::get_item_css_classes(), 1 passed in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php on line 133 and at least 2 expected in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php:380
+Stack trace:
+#0 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(133): Woo_Variation_Swatches_Product_Page->get_item_css_classes(Array)
+#1 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(306): Woo_Variation_Swatches_Pro_Product_Page->get_item_css_classes(Array)
+#2 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-v в /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php на строке 380
+
+2022-12-17T09:24:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Woo_Variation_Swatches_Product_Page::get_item_css_classes(), 1 passed in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php on line 133 and at least 2 expected in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php:380
+Stack trace:
+#0 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(133): Woo_Variation_Swatches_Product_Page->get_item_css_classes(Array)
+#1 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(306): Woo_Variation_Swatches_Pro_Product_Page->get_item_css_classes(Array)
+#2 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-v в /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php на строке 380
+
+2022-12-17T09:28:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Woo_Variation_Swatches_Product_Page::get_item_css_classes(), 1 passed in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php on line 133 and at least 2 expected in /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php:380
+Stack trace:
+#0 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(133): Woo_Variation_Swatches_Product_Page->get_item_css_classes(Array)
+#1 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches-pro/includes/class-woo-variation-swatches-pro-product-page.php(306): Woo_Variation_Swatches_Pro_Product_Page->get_item_css_classes(Array)
+#2 /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-v в /home/u257925500/domains/test84.site/public_html/wp-content/plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php на строке 380
+

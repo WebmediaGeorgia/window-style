@@ -52,24 +52,26 @@ window.addEventListener("DOMContentLoaded", (event) => {
   let atributes_block = document.querySelector(
     ".product_page_block .product_page_right .list"
   );
-  let btn_for_hidden = document.querySelector(".kharakteristik .title span");
+    let btn_for_hidden = document.querySelector(".kharakteristik .title ");
+  let btn_for_hidden_span = document.querySelector(".kharakteristik .title span");
 
   if (btn_for_hidden) {
     btn_for_hidden.addEventListener("click", () => {
       atributes_block.classList.toggle("hidden");
-      btn_for_hidden.classList.toggle("active");
+      btn_for_hidden_span.classList.toggle("active");
     });
   }
 
   let description_block = document.querySelector(
     ".product_page_block .product_page_right .desc_text"
   );
-  let btn_for_deccription = document.querySelector(".descriptions .title span");
+  let btn_for_deccription = document.querySelector(".descriptions .title ");
+  let btn_for_deccription_span = document.querySelector(".descriptions .title span");
 
   if (btn_for_deccription) {
     btn_for_deccription.addEventListener("click", () => {
       description_block.classList.toggle("hidden");
-      btn_for_deccription.classList.toggle("active");
+      btn_for_deccription_span.classList.toggle("active");
     });
   }
 
@@ -135,16 +137,16 @@ window.addEventListener("DOMContentLoaded", (event) => {
  }
 
 
-   // ********скрыть надпись Недавно Смотрели если нет продуктов
+   // ********Отправка данных в форме
    let btn_order = document.querySelector('.button_for_byu');
    if(btn_order){
      btn_order.addEventListener('click',()=>{
      let size_rel = document.querySelector('.size-hidden');
      let model_rel = document.querySelector('.model-hidden');
      let color_rel = document.querySelector('.color-hidden');
-     let size_rel_input = document.querySelector('.size_item.active');
+     let size_rel_input = document.querySelector('.unvisible_content .thwvsf-wrapper-item-li.attribute_pa_size.thwvsf-selected span');
      let model_rel_input = document.querySelector('.name_product');
-     let color_rel_input= document.querySelector('.color_item.active');
+     let color_rel_input= document.querySelector('.unvisible_content .thwvsf-wrapper-item-li.attribute_pa_color.thwvsf-selected');
      if(size_rel_input){
        size_rel.value=size_rel_input.innerHTML;
      }
@@ -152,13 +154,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
        model_rel.value = model_rel_input.innerHTML;
      }
      if(color_rel_input){
-       color_rel.value = color_rel_input.innerHTML;
+       color_rel.value = color_rel_input.title;
      }
    
      
-     console.log(size_rel.value);
+     console.log(size_rel_input.innerHTML);
      console.log(model_rel.value);
-     console.log(color_rel.value);
+     console.log(color_rel_input.title);
    })
    }
 

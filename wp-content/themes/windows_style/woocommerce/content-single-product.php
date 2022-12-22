@@ -60,9 +60,7 @@ $img_full = $product->get_image();
           <h1 class="name_product"><?php the_title(); ?></h1>
           <p class="subtitle"><?php echo $desc_short; ?> </p>
 
-          <div class="price_product">
-            <?php echo $ref; ?>
-          </div>
+       
         </div>
         <div class="big_slider swiper">
           <div class="big_slider_wrapper swiper-wrapper">
@@ -114,7 +112,11 @@ $img_full = $product->get_image();
 
       </div>
       <div class="product_page_right">
-        <div class="unvisible_content">
+        <div class="product_desk">
+          <p class="artikul">#<?php echo $sku_id; ?></p>
+          <h1 class="name_product"><?php the_title(); ?></h1>
+          <p class="subtitle"><?php echo $desc_short; ?></p>
+                  <div class="unvisible_content">
         <?php
         /**
          * Hook: woocommerce_single_product_summary.
@@ -129,15 +131,9 @@ $img_full = $product->get_image();
          * @hooked woocommerce_template_single_sharing - 50
          * @hooked WC_Structured_Data::generate_product_data() - 60
          */
-       //do_action('woocommerce_single_product_summary');
+       do_action('woocommerce_single_product_summary');
         ?>
         </div>
-       
-
-        <div class="product_desk">
-          <p class="artikul">#<?php echo $sku_id; ?></p>
-          <h1 class="name_product"><?php the_title(); ?></h1>
-          <p class="subtitle"><?php echo $desc_short; ?></p>
           <div class="variation_size">
             <?php
             $attributes = $product->get_variation_attributes();
@@ -193,10 +189,7 @@ $img_full = $product->get_image();
             ?>
 
           </div>
-          <div class="price_product">
-            <?php echo $ref; ?>
 
-          </div>
         </div>
         <a href="#popup-callback-me" class="button_for_byu">განცხადების დატოვება</a>
         <div class="kharakteristik">

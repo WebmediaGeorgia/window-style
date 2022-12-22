@@ -11,20 +11,26 @@
         <li><a href="<?php $url = site_url('/contaсts/');
                       echo $url; ?>">კონტაქტები</a></li>
       </nav>
-      <div class="footer_logo">
+      <a  href="<?php $url = site_url(''); echo $url; ?>" class="footer_logo">
         <picture>
           <source srcset="<?php bloginfo("template_url"); ?>/assets/img/footerlogo.webp" type="image/webp"><img src="<?php bloginfo("template_url"); ?>/assets/img/footerlogo.png" alt="logo">
         </picture>
-      </div>
+      </a>
 
       <div class="contacts_footer">
-        <div class="tel"><a href="#popup-callback-me"><?php the_field('phone-_map',14); ?></a></div>
+        <div class="tel "><a href="#popup-callback-me"><?php the_field('phone-_map',14); ?></a></div>
         <div class="email"><a href="mailto:<?php the_field('email',14); ?>"><?php the_field('email',14); ?></a></div>
       </div>
     </div>
     <div class="blick_down">
       <p class="quote"><?php the_field('down_text',14); ?></p>
     </div>
+    <section class="development">
+        <a href="https://webmedia.ge/" target="_blank">
+            <img src="<?php bloginfo("template_url"); ?>/assets/img/webmedia-logo.svg" alt="Webmedia Georgia">
+            <span>Development WebMedia</span>
+        </a>
+    </section> 
 
   </div>
 </footer>
